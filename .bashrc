@@ -85,6 +85,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
+alias todo='/opt/todo.txt-cli/todo.sh'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'

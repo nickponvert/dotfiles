@@ -5,14 +5,22 @@ DEFAULT_USER="nick"
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="bira"
+export TERM=xterm-256color
+export PYTHONPATH=$PYTHONPATH:~/Programming/
 
+#Base16 Shell
+
+#BASE16_SCHEME="tomorrow"
+#BASE16_SHELL="$HOME/.config/base16-shell/base16-$BASE16_SCHEME.dark.sh"
+#[[ -s $BASE16_SHELL ]] && . $BASE16_SHELL
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+alias todo="/opt/todo.txt-cli/todo.sh"
+alias matlab="/usr/local/MATLAB/R2012a_Student/bin/matlab -glnx86"
 alias tmux="tmux -2"
-
+alias mvr="~/Scripts/moveref.sh"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
